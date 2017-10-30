@@ -4,13 +4,23 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "restify": "^6.2.3"
+    "bcrypt": "^1.0.3",
+    "bookshelf": "^0.10.4",
+    "joi": "^13.0.1",
+    "jsonwebtoken": "^8.1.0",
+    "knex": "^0.13.0",
+    "mysql": "^2.15.0",
+    "restify": "^6.2.3",
+    "restify-jwt-auth-next": "^1.1.0",
+    "serve-static-restify": "^2.0.0",
+    "sqlite3": "^3.1.13"
   },
   "devDependencies": {
     "nodemon": "^1.12.1"
